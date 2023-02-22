@@ -1,9 +1,9 @@
 import React, {useState, useRef, useCallback} from 'react';
 import {SafeAreaView, View, Text, StyleSheet, StatusBar} from 'react-native';
-import Control from './Control';
-import Header from './Header';
-import Result from './Result';
-import {displayTime} from './util';
+import Control from '../src/components/Control';
+import Header from '../src/components/Header';
+import Result from '../src/components/Result';
+import {displayTime} from '../src/components/util';
 
 const Stopwatch = () => {
   const [time, setTime] = useState(0);
