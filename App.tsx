@@ -1,13 +1,15 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import Stopwatch from './src/components/Stopwatch';
+import {NavigationContainer} from '@react-navigation/native';
+import Navigation from './navigation/Navigation';
 
 function App(): JSX.Element {
   return (
-    <View style={styles.container}>
-      {/* <StatusBar /> */}
-      <Stopwatch />
-    </View>
+    <NavigationContainer>
+      <View style={styles.container}>
+        <Navigation />
+      </View>
+    </NavigationContainer>
   );
 }
 
