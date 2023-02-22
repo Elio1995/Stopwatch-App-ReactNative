@@ -1,6 +1,10 @@
 # Stopwatch App
 
+This project is done by ReactNative + Typescript.
 
+### How to view the code?
+- open stopwatch branch
+- enjoy the code
 
 ## Getting started
 
